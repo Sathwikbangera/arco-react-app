@@ -3,7 +3,7 @@
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .program img{
     
@@ -47,8 +47,9 @@
 @media (max-width: 650px){
     .programs{
         flex-direction: column;
+
     }
-    .programs{
+    .program{
         flex-basis: 100%;
         margin: 20px;
     }
